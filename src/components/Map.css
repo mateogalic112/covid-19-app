@@ -1,0 +1,50 @@
+.map {
+    height: 500px;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, .5);
+}
+
+.map .leaflet-container {
+    height: 100%;
+}
+
+.popup__flag {
+    height: 30%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.popup__flag img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup__country {
+    margin: 2px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.popup__cases,
+.popup__recovered,
+.popup__deaths {
+    font-size: .9rem;
+    color: #777;
+}
+
+.popup__cases span {
+    color: rgb(185, 0, 0);
+}
+
+.popup__recovered span {
+    color: rgb(0, 185, 0);;
+}
+
+.popup__deaths span {
+    color: black;
+}
+
